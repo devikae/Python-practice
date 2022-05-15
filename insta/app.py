@@ -30,12 +30,12 @@ time.sleep(4)
 # id = driver.find_element(By.CLASS_NAME, ('_2hvTZ')[0])
 id = driver.find_element_by_css_selector('#loginForm > div > div:nth-child(1) > div > label > input')
 id.click()
-id.send_keys('eye_0n_you')
+id.send_keys('계정 명 ')
 
 # PW 입력 : input tag > _2hvTZ pexuQ zyHYP id 와 중복이 되는 요소가 있으니 두번째 클래스명을 사용하거나 리스트 인덱싱
 # pw = driver.find_element_by_class_name('_2hvTZ')[1]
 pw = driver.find_element_by_css_selector('#loginForm > div > div:nth-child(2) > div > label > input')
-pw.send_keys('wntjr2020!')
+pw.send_keys('계정 비')
 
 
 # find_element(by=By.CLASS_NAME, value=name)를 사용하세요.
